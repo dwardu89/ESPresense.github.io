@@ -129,4 +129,5 @@ for str in ${myArray[@]}; do
     -i presensce-information -t "espresense/rooms/$str/include/set" -m "apple:bbbyyyy iBeacon:44445555" -d
   mosquitto_pub -h homeassistant.local -u <username> -P <password> \
     -i presensce-information -t "espresense/rooms/$str/restart/set" -m "PRESS" -d
-done```
+done
+```
